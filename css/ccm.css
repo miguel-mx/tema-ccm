@@ -1,0 +1,46 @@
+
+.top_bar {
+    min-height:45px;
+    background-color: #001729;
+}
+
+.social {
+    float: right;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navbar {
+    border-bottom: 5px solid #ffc946;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+  height: 100px;
+}
+
+.nav >li >a {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.footer-content {
+    padding: 40px;
+}
+
+.logo-footer {
+    padding: 20px;
+}
