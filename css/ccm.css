@@ -13,12 +13,12 @@
 
 .navbar {
     border-bottom: 5px solid #ffc946;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 
 .navbar-brand {
-  height: 100px;
+  height: 95px;
 }
 
 .nav >li >a {
@@ -27,8 +27,8 @@
 }
 
 .navbar-toggle {
-  padding: 10px;
-  margin: 25px 15px 25px 0;
+  padding: 5px;
+  margin: 20px 10px 10px 0;
 }
 
 .footer {
@@ -44,3 +44,52 @@
 .logo-footer {
     padding: 20px;
 }
+
+/*AQUI EMPIEZAN LOS NUEVOS ESTILOS :)*/
+a{
+color: #001729 ;
+text-decoration: none
+}
+
+.navbar-nav{
+    float: right;
+    margin: 0;
+}
+
+
+/*PARA EL BACKGROUD O BANNER PRINCIPAL ES IMPORTANTE CONSERVAR ESTAS PROPIEDADES quitar padding*/
+.background-cover{
+margin-right: auto;
+margin-left: auto;
+background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src:  url('myfont.woff2') format('woff2'),
+    url('myfont.woff') format('woff');
+}
+
+body {
+    font-family: 'Montserrat';
+
+}
+
+
+.Titulos-noticias-up{
+    padding-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    color: #f56d61;
+
+}
+
+.Titulos-noticias{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #f56d61;
+}
+
