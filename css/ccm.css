@@ -1,6 +1,6 @@
 
 .top_bar {
-    min-height:45px;
+    min-height: 45px;
     background-color: #001729;
 }
 
@@ -46,24 +46,22 @@
 }
 
 /*AQUI EMPIEZAN LOS NUEVOS ESTILOS :)*/
-a{
-color: #001729 ;
-text-decoration: none
+a {
+    color: #001729;
+    text-decoration: none;
 }
 
-.navbar-nav{
+.navbar-nav {
     float: right;
     margin: 0;
 }
 
-
 /*PARA EL BACKGROUD O BANNER PRINCIPAL ES IMPORTANTE CONSERVAR ESTAS PROPIEDADES quitar padding*/
 .background-cover{
-margin-right: auto;
-margin-left: auto;
-background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
 }
-
 
 @font-face {
     font-family: 'montserrat';
@@ -73,20 +71,17 @@ background-size: cover;
 
 body {
     font-family: 'Montserrat';
-
 }
 
-
-.Titulos-noticias-up{
+.Titulos-noticias-up {
     padding-top: 15px;
     font-size: 19px;
     font-weight: bold;
     text-align: center;
     color: #f56d61;
-
 }
 
-.Titulos-noticias{
+.Titulos-noticias {
     font-size: 24px;
     font-weight: bolder;
     text-align: center;
