@@ -46,9 +46,24 @@
 }
 
 /*AQUI EMPIEZAN LOS NUEVOS ESTILOS :)*/
+
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #001729;
+    text-decoration: none;
+}
+
 a {
     color: #001729;
     text-decoration: none;
+}
+
+p {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    color: #565656;
 }
 
 .navbar-nav {
@@ -73,7 +88,9 @@ body {
     font-family: 'Montserrat';
 }
 
-.Titulos-noticias-up {
+/*Unidades*/
+
+.Titulos-unidades-up {
     padding-top: 15px;
     font-size: 19px;
     font-weight: bold;
@@ -81,10 +98,32 @@ body {
     color: #f56d61;
 }
 
-.Titulos-noticias {
-    font-size: 24px;
+.Titulos-unidades {
+    font-size: 20px;
     font-weight: bolder;
     text-align: center;
     color: #f56d61;
 }
 
+/*Nuevos Eventos*/
+
+.Titulos-Noticias {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #154679;
+}
+
+.Texto-Noticias {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    color: #565656;
+}
+
+.Subtitulos {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #8d0e12;
+}
